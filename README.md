@@ -46,36 +46,10 @@ This package solves that problem by:
 
 ## Installation
 
-### Step 1: Register Local Package
-
-Edit your **root `composer.json`** and add:
-
-```json
-"repositories": [
-  {
-    "type": "path",
-    "url": "packages/id-generator/laravel"
-  }
-]
-```
-
----
-
-### Step 2: Require the Package
-
-Add the package to `require`:
-
-```json
-"require": {
-  "id-generator/laravel": "*"
-}
-```
-
-Then run:
+Install the package via Composer:
 
 ```bash
-composer update
-composer dump-autoload
+composer require jahid-facts/laravel-id-generator
 ```
 
 ---
